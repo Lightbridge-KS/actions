@@ -41,3 +41,6 @@ git switch main
 usethis::use_github_action(url = "https://github.com/Lightbridge-KS/lb-actions/blob/main/push-files/push-files.yml")
 ```
 
+-   Modify the YAML file it according to your need
+
+-   Add repository secrets `COPY_FILES_ACROSS_REPO`. (Repo Setting -> Secrets -> New repository secrets)
