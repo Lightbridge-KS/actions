@@ -6,4 +6,4 @@ To automatically create YAML file in repo:
 usethis::use_github_action(url = "URL-of-the-YAML")
 ```
 
--   [Push Files](./push-files.yml)
+-   [Push Files](./push-files/push-files.yml)

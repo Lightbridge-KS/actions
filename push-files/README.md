@@ -23,6 +23,6 @@ Will remove all files in this new branch
 ### Create GitHub Actions
 
 ```r
-usethis::use_github_action(url = "URL-of-the-YAML")
+usethis::use_github_action(url = "https://github.com/Lightbridge-KS/lb-actions/blob/main/push-files/push-files.yml")
 ```
 
