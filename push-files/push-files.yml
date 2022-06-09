@@ -16,7 +16,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Pushes My CV file
+    - name: Pushes My File
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
         # Repository Secrets
