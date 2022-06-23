@@ -38,7 +38,7 @@ git switch main
 ### 2. Create GitHub Actions
 
 ```r
-usethis::use_github_action(url = "https://github.com/Lightbridge-KS/lb-actions/blob/main/push-files/push-files.yml")
+usethis::use_github_action(url = "https://github.com/Lightbridge-KS/actions/blob/main/push-files/push-files.yml")
 ```
 
 -   Modify the YAML file it according to your need
