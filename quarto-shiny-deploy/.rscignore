@@ -11,10 +11,10 @@
 /renv/
 renv.lock
 
-/.github/
+.github
 
-/rsconnect/
+rsconnect
 
-*.bib
+references.bib
 
 README.md
