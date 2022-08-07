@@ -8,7 +8,7 @@
 .DS_Store
 .gitignore
 
-/renv/
+renv
 renv.lock
 
 .github
