@@ -48,8 +48,8 @@ jobs:
       - name: Authorize and Deploy Shiny App 🚀
         env: 
         # Uncomment below and add account name and app name to deploy
-          # ACCOUNT: my_account_name
           # APPNAME: my_app_name
+          # ACCOUNT: my_account_name
           SERVER: shinyapps.io
         run: |
           rsconnect::setAccountInfo("${{ secrets.RSCONNECT_USER }}", "${{ secrets.RSCONNECT_TOKEN }}", "${{ secrets.RSCONNECT_SECRET }}")
