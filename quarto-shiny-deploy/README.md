@@ -19,7 +19,7 @@ Obtain the token and secret for configuring `rsconnect`: [see here](https://shin
 Add `.rscignore` to list files that will not be deployed.
 
 ```r
-usethis::use_github_file(path = "https://github.com/Lightbridge-KS/actions/blob/main/shiny-deploy/.rscignore")
+usethis::use_github_file(repo_spec = "https://github.com/Lightbridge-KS/actions/blob/main/shiny-deploy/.rscignore")
 ```
 
 ## GHA
